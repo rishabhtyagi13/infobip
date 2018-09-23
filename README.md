@@ -23,3 +23,15 @@ The following services are used to obtain movie data:
 * MovieService - A wrapper that retrieves data from a json file containing a list of movies
 
 
+Run
+Run start
+
+This will run the 'serve' npm task
+
+npm start
+Run webpack dev server
+
+npm run serve:dev
+Alternatively run live-server (simple development http server with live reload capability)
+
+npm run serve
