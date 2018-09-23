@@ -19,7 +19,7 @@ class MovieList extends React.Component {
     
     getMovies(){
         return (
-            <div className="card-deck col-sm-12 col-md-12 col-lg-12">
+            <div className="card-deck">
                 {
                     this.state.movies.map(movie => <MovieCard key={movie.id} movie={movie} filterMovie={this.filterMovies}/>)
                 }
